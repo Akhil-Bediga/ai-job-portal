@@ -1,0 +1,25 @@
+{
+  "dataset": {
+    "jobs": 1200,
+    "resumes": 240,
+    "families": 8
+  },
+  "k": 10,
+  "metrics": {
+    "precision@10": {
+      "baseline": 0.7483,
+      "engine": 0.9812,
+      "uplift_pct": 31.1
+    },
+    "ndcg@10": {
+      "baseline": 0.7711,
+      "engine": 0.982,
+      "uplift_pct": 27.4
+    },
+    "mrr": {
+      "baseline": 0.9074,
+      "engine": 0.9894,
+      "uplift_pct": 9.0
+    }
+  }
+}

@@ -1,0 +1,127 @@
+# Skill gazetteer. One skill per line, lowercase. Multi-word skills are matched
+# as phrases before single tokens. Lines starting with # are ignored.
+
+python
+java
+scala
+go
+golang
+c++
+c#
+javascript
+typescript
+sql
+nosql
+r
+bash
+html
+css
+
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+plotly
+scikit learn
+tensorflow
+pytorch
+keras
+xgboost
+nltk
+spacy
+hugging face
+opencv
+
+machine learning
+deep learning
+natural language processing
+nlp
+computer vision
+data engineering
+data science
+data analysis
+feature engineering
+statistics
+a/b testing
+time series
+recommendation systems
+
+apache spark
+spark
+apache airflow
+airflow
+apache kafka
+kafka
+hadoop
+hive
+dbt
+flink
+databricks
+snowflake
+redshift
+bigquery
+etl
+elt
+data warehouse
+data lake
+data modeling
+star schema
+
+postgresql
+mysql
+mongodb
+cassandra
+redis
+elasticsearch
+dynamodb
+oracle
+
+aws
+azure
+gcp
+docker
+kubernetes
+terraform
+ci cd
+jenkins
+github actions
+linux
+git
+
+rest api
+graphql
+flask
+django
+fastapi
+spring boot
+node js
+express
+microservices
+grpc
+
+react
+angular
+vue
+redux
+next js
+tailwind
+sass
+webpack
+bootstrap
+responsive design
+accessibility
+
+android
+ios
+swift
+kotlin
+react native
+flutter
+
+tableau
+power bi
+looker
+excel
+dashboards
+data visualization

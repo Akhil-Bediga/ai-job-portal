@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Job Portal &mdash; Resume Matcher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>AI Job Portal</h1>
+    <p class="tagline">Paste a resume and get the best-matching openings, ranked by an NLP recommender.</p>
+  </header>
+
+  <main>
+    <section class="panel input-panel">
+      <h2>Your resume</h2>
+      <textarea id="resume" rows="14" placeholder="Paste resume text here..."></textarea>
+      <div class="controls">
+        <button id="match-btn">Find matches</button>
+        <button id="sample-btn" class="secondary">Load sample</button>
+        <label class="topn">
+          Top
+          <select id="top-n">
+            <option>5</option>
+            <option selected>10</option>
+            <option>20</option>
+          </select>
+        </label>
+      </div>
+      <div id="parsed" class="parsed"></div>
+    </section>
+
+    <section class="panel results-panel">
+      <h2>Matches</h2>
+      <div id="status" class="status">Results will appear here.</div>
+      <div id="results"></div>
+    </section>
+
+    <section class="panel stats-panel">
+      <h2>Market snapshot</h2>
+      <h3>Most in-demand skills</h3>
+      <div id="skill-stats" class="bars"></div>
+      <h3>Average salary by role</h3>
+      <div id="salary-stats" class="bars"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Synthetic dataset &middot; TF-IDF + skill-overlap recommender &middot; Flask API</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
